@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form Element</title>
+    <style>
+        .img-small {
+            border-radius: 50%;
+        }
+    </style>
+    <script>
+        class Mascota {
+            constructor(nombre, raza) {
+                this.nombre = nombre;
+                this.raza = raza;
+            }
+
+            saludar() {
+                document.write(`Hola esto es una prueba ${this.nombre} con la raza ${this.raza}, `)
+            }
+        }
+
+        let miMascota = new Mascota('Firulais', 'Pincher')
+        miMascota.saludar();
+
+        class otraMascota extends Mascota {
+            constructor(nombre,raza,color) {
+            super(nombre, raza);
+            this.color = color;
+            }
+            otrosaludo() {
+                document.write(`Este es otro saludo con ${this.nombre} y con ${this.raza} tambien su color ${this.color}`);
+            }
+        }
+
+        let miOtra = new otraMascota('Duglas', 'Pitbull', 'amarillo');
+        miOtra.otrosaludo();
+
+
+        //myfunc = () => { let a = [1, 2, 3]; }; myfunc(); console.log(a);
+    </script>
+</head>
+
+<body>
+    <h2>CatPhotoApp</h2>
+    <main>
+        <p>Click here to view more <a href="#">Cat photos</a>.</p>
+        <a href="#"><img class="img-small" src="https://bit.ly/fcc-relaxing-cat"
+                alt="A cute orange cat lying on its back."></a>
+
+        <p>Things cats love:</p>
+        <ul>
+            <li>Cat nip</li>
+            <li>laser pointers</li>
+            <li>lasagna</li>
+        </ul>
+        <p>Top 3 things cats hate:</p>
+        <ol>
+            <li>flea treatment</li>
+            <li>thunder</li>
+            <li>other cats</li>
+        </ol>
+        <input type="text" placeholder="cat photo URL">
+
+
+
+    </main>
+
+</body>
+
+</html>
