@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Renault 9</title>
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="frontend/style.css">
+</head>
+
+<body>
+    <div class="text-h1">
+        <h1>The Renault 9</h1>
+    </div>
+
+    <div class="row">
+        <div class="column-img">
+            <button class="encender" id="btn-encender" onclick="carro()">ON</button>
+
+            <button id="btn-estacionar"> ⚠ </button>
+
+            <button id="dir-left" value="left">←</button>
+            <button id="dir-rigth" value="rigth">→</button>
+
+            <button id="giro-left" value="giroIzq">👈</button>
+            <button id="giro-rigth" value="giroDer">👉</button>
+
+            <button id="pedal-cluth">cluth</button>
+            <button id="pedal-frenar"> brake</button>
+            <button id="pedal-acelerar">speed</button>
+
+            <button id="btn-frenoManos">🛴</button>
+            <button id="cinturon">❕</button>
+
+
+            <div id="cambios">
+                <button id="primera">1️⃣</button>
+                <button id="segunda">2️⃣</button>
+                <button id="tercera">3️⃣</button>
+                <button id="cuarta">4️⃣</button>
+                <button id="quinta">5️⃣</button>
+                <button id="sexta">6️⃣</button>
+                <button id="neutra">❕</button>
+
+
+            </div>
+
+        </div>
+        <div id="text-data">
+            <h1 class="hdata">Datos automovil</h1>
+            <textarea name="text-data" id="data" cols="30" rows="10"></textarea>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="backend/classCar.js"></script>
+</body>
+
+</html>

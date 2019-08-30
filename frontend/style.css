@@ -1,0 +1,219 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.text-h1 {
+  text-align: center;
+  width: -5px;
+  height: 65px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.column-data {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 475px;
+  border: 2px;
+  border-top-color: black;
+}
+.hdata {
+  text-align: center;
+}
+
+#data {
+  width: 600px;
+  height: 400px;
+  padding: 2px;
+  margin-left: 30px;
+  border: solid;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+.column-img {
+  background-image: url("./../frontend/img/panel_frontal.jpg");
+  background-repeat: no-repeat, repeat;
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 475px;
+  display: block;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#btn-encender {
+  background-color: red;
+  position: absolute;
+  margin-left: 24%;
+  margin-top: 18%;
+  border-radius: 100px;
+}
+
+#btn-estacionar {
+  background-color: red;
+  position: absolute;
+  margin-left: 38%;
+  margin-top: 4.8%;
+  border-radius: 100px;
+}
+
+#dir-left {
+  background-color: #f7f1e3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  margin-left: 11%;
+  margin-top: 8%;
+  border-radius: 100px;
+}
+
+#dir-rigth {
+  background-color: #f7f1e3;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 8%;
+  border-radius: 100px;
+}
+
+#giro-left {
+  background-color: #34ace0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 7%;
+  margin-top: 13%;
+  border-radius: 100px;
+}
+
+#giro-rigth {
+  background-color: #34ace0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 29%;
+  margin-top: 13%;
+  border-radius: 100px;
+}
+
+#pedal-cluth {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 13%;
+  margin-top: 28%;
+  border-radius: 100px;
+}
+
+#pedal-frenar {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 19%;
+  margin-top: 28%;
+  border-radius: 100px;
+}
+
+#pedal-acelerar {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 28%;
+  border-radius: 100px;
+}
+
+#btn-frenoManos {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 40%;
+  margin-top: 30%;
+  border-radius: 100px;
+  width: 60px;
+  height: 50px;
+}
+
+#primera {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 39%;
+  margin-top: 25%;
+  border-radius: 100px;
+  padding: 1px;
+}
+
+#segunda {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 41%;
+  margin-top: 25%;
+  border-radius: 100px;
+  padding: 1px;
+}
+
+#tercera {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 43%;
+  margin-top: 25%;
+  border-radius: 100px;
+  padding: 1px;
+}
+
+#cuarta {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 39%;
+  margin-top: 27%;
+  border-radius: 100px;
+  padding: 1px;
+}
+
+#quinta {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 41%;
+  margin-top: 27%;
+  border-radius: 100px;
+  padding: 1px;
+}
+
+#sexta {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 43%;
+  margin-top: 27%;
+  border-radius: 100px;
+  padding: 1px;
+}
+
+#neutra {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 27%;
+  border-radius: 100px;
+  padding: 1px;
+}
+
+#cinturon {
+  background-color: #f1c40f;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  position: absolute;
+  margin-left: 2%;
+  margin-top: 14%;
+  border-radius: 100px;
+  padding: 1px;
+}
